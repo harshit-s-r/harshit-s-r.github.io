@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Raleway:wght@300&display=swap');
+body {
+    margin:0;
+    background-color: #111;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway';
+    font-size:18px;
+    color:#444;
+    text-align: center;
+    overflow: auto;
+}
+/*this is a comment*/
+img{
+    max-width:100%;
+}
+.title
+{
+    background-color: #222;
+    margin-top: 8%;
+    padding-top: 1%;
+    padding-right: 20px;
+    font-size: 120px;
+    font-family: 'Raleway';
+    text-align: center;
+    color: #898;
+    padding-bottom: 1%;
+    margin-bottom: 5%;
+    animation: anim 1s 1;
+}  
+@keyframes anim {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+        opacity: 1;
+    }
+  }
+header {
+    text-align: center;
+}
+hr {
+    opacity: 0.6;
+    width: 1050px;
+    height: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#666;
+ }
+nav{
+    padding-top: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding-left: 10px;
+}
+nav ul li{
+    float: left;
+    width:20%;
+    border: 2 px solid #555;
+}
+nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #999;
+    display: block;
+    padding: 6% 12%;
+}
+nav ul li a:hover, nav ul li.active a{
+    background-color: #333;
+    opacity: 0.5;
+    color: #9d9;
+}
+.cfx {
+    clear: both; 
+}
+.imgx{
+    float: left;
+    max-width: 450px;
+    margin: 1%;
+    margin-bottom: 2%;
+    opacity:0.96;
+    color: #ccc;
+}
+
+.imgx img{
+    text-align: center;
+    max-width: 450px;
+    border-radius: 5px;
+}
+.imgxm{
+    float: left;
+    max-width: 450px;
+    margin: 1%;
+    margin-bottom: 2%;
+    opacity:0.96;
+}
+.imgxm img{
+
+    max-width: 450px;
+    border-radius: 5px;
+}
+.imgxc{
+    float: left;
+    max-width: 470px;  
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+    opacity:0.96;
+    color: #ccc;
+}
+
+.imgxc img{
+    text-align: center;
+    max-width: 470px;
+    border-radius: 5px;
+}
+.contain{
+    text-align: center;
+    padding:1%;
+    padding-left: 4%;
+}
+.bth{
+    background-color: #222;
+    border-radius: 2%;
+    opacity: 0.9;
+
+    padding: 2%;
+    margin: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: #aaa;
+    text-align: center;    
+    font-size: 20px;
+}
+.bth h1 a{
+    text-decoration: none;
+    color: #aaa;
+}
+footer{
+    background-color: #555;
+    width: auto;
+    padding: 2%;
+}
+.social{
+    font-size: 400%;
+    text-align: center;
+}
+.social a {
+color: #fff;
+padding: 3%;
+}
+.social a:hover{
+    color: #222;
+    padding: 3%;
+}
