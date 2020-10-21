@@ -188,9 +188,9 @@ transition:   color 400ms, background-color 400ms;
     font-size: 25px;
 }
 .hello img{
-    width: 20%;
-    opacity: 0.95;
-    border-radius: 25%;
+    text-align:center;
+    width: 100px;
+    border-radius: 20%;
 }
 footer{
     background-color: #555;
